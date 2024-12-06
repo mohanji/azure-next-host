@@ -1,8 +1,9 @@
-/**@type {import {'next'}.nextConfig} */
-
+/** @type {import('next').NextConfig} */
 const nextConfig = {
-  output : 'standalone'
-  /* config options here */
-};
+  reactStrictMode: true,
+  distDir: 'build',
+  output: 'standalone',
+  };
+
 
 export default nextConfig;
